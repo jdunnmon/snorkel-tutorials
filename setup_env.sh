@@ -1,6 +1,6 @@
 # [OPTIONAL] Activate a virtual environment called "snorkel"
 conda create --yes -n snorkel-env python=3.6
-source activate snorkel-env
+conda activate snorkel-env
 
 # We specify PyTorch here to ensure compatibility, but it may not be necessary.
 conda install -y pytorch==1.1.0 -c pytorch
